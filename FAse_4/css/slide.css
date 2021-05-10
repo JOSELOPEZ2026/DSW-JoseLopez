@@ -1,0 +1,39 @@
+img{
+    width: 500px;
+    margin: auto;
+    
+}
+.contenedor{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    padding: 3px;
+    box-sizing: border-box;
+    display: flex;
+}
+.contenedor img{
+width: 420px;
+height: 150px;
+
+}
+.contenedor li{
+    margin: 2px;
+    
+    }
+.contenedor ul{
+    list-style: none;
+    width: 400%;
+    padding: 0;
+    display: flex;
+    animation: movimiento 20s infinite alternate;
+}
+@keyframes movimiento {
+    0% {margin-left: 0px;}
+    20% {margin-left: 0px;}
+
+    25% {margin-left: -700px;}
+    45% {margin-left: -700px;}
+
+    50% {margin-left: -1400px;}
+    75% {margin-left: -1400px;}
